@@ -1,0 +1,40 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 15px 0;
+}
+
+.nav-btn {
+    color: rgba(255, 255, 255, 0.7); /* Light gray color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:hover {
+    color: #fff; /* White on hover */
+    font-weight: bold; /* Bold on hover */
+}
+
+/* Content */
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
